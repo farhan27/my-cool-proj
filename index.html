@@ -35,6 +35,10 @@
     	.h1color h1{
     		color:#fff;
     	}
+
+    	.well {
+   			background-color: rgba(245, 245, 245, 0.4);
+		}
     </style>
 
 </head>
@@ -112,6 +116,7 @@
                 <div class="col-lg-12">
                     <h1>About</h1>
 					<div class="col-md-6">
+						
 					</div>
 					<div class="col-md-6">
 						<h2 class="text-left">HELLO, MY NAME IS FARHAN</h2>
@@ -139,17 +144,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Education Section</h1>
+                    <h1>Education Background</h1>
 						<ul class="timeline">
 							<li>
 							<div class="timeline-badge"><i class="glyphicon glyphicon-calendar"></i></div>
 								<div class="timeline-panel">
 									<div class="timeline-heading">
 										<h4 class="timeline-title">Rensselaer Polytechnic Institute</h4>
-										 <p><large class="text-muted"><i class="glyphicon glyphicon-time"></i> 08/2011 - 05/2015 </large></p>
+										
 									</div>
 									<div class="timeline-body">
-										
+										<large class="text-muted"><i class="glyphicon glyphicon-time"></i> 08/2011 - 05/2015 </large>
+										<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">
+              								<span class="glyphicon glyphicon-chevron-down"></span> 
+            							</button>
+            							<div id="demo" class="panel-collapse collapse">
+          									<div class="panel-body">
+          								</div>
 										<p>Information Technology and Web Science: 3.17</p>
 										<p> Management Information System</p>
 									
@@ -162,9 +173,16 @@
 								<div class="timeline-panel">
 									<div class="timeline-heading">
 										<h4 class="timeline-title">International Education College</h4>
-										<p><large class="text-muted"><i class="glyphicon glyphicon-time"></i> 07/2010 - 07/2011 </large></p>
+										
 									</div>
 									<div class="timeline-body">
+										<large class="text-muted"><i class="glyphicon glyphicon-time"></i> 07/2010 - 07/2011 </large>
+										<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2">
+              								<span class="glyphicon glyphicon-chevron-down"></span> 
+            							</button>
+            							<div id="demo2" class="panel-collapse collapse">
+          									<div class="panel-body">
+          								</div>
 										<p>American Degree Foundation Programme(ADFP): 3.00</p>
 									</div>
 								</div>
@@ -174,9 +192,17 @@
 								<div class="timeline-panel">
 									<div class="timeline-heading">
 										<h4 class="timeline-title">Sekolah Menengah Kebangsaan Agama Johor Bahru</h4>
-										<p><large class="text-muted"><i class="glyphicon glyphicon-time"></i> 01/2005 - 12/2009 </large></p>
+										
 									</div>
+
 									<div class="timeline-body">
+										<large class="text-muted"><i class="glyphicon glyphicon-time"></i> 01/2005 - 12/2009 </large>
+										<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo3">
+              								<span class="glyphicon glyphicon-chevron-down"></span> 
+            							</button>
+            							<div id="demo3" class="panel-collapse collapse">
+          									<div class="panel-body">
+          								</div>
 										<p>Sijil Penilaian Tinggi (SPM): 10A 1B 1C</p>
 										<p>Penilaian Menengah Rendah (PMR): 8A 1B</p>
 									</div>
@@ -187,9 +213,15 @@
 								<div class="timeline-panel">
 									<div class="timeline-heading">
 										<h4 class="timeline-title">Sekolah Kebangsaan Taman Johor Jaya 5</h4>
-										<p><large class="text-muted"><i class="glyphicon glyphicon-time"></i> 01/2002 - 10/2004 </large></p>
 									</div>
 									<div class="timeline-body">
+										<large class="text-muted"><i class="glyphicon glyphicon-time"></i> 01/2002 - 10/2004 </large>
+										<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo4">
+              								<span class="glyphicon glyphicon-chevron-down"></span> 
+            							</button>
+            							<div id="demo4" class="panel-collapse collapse">
+          									<div class="panel-body">
+          								</div>
 										<p>Ujian Penilaian Sekolah Rendah(UPSR): 4A 1B </p>
 									</div>
 								</div>
@@ -205,7 +237,7 @@
     <section id="skills" class="skills-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 well well-sm">
                     <h1>Skills Section</h1>
 					<p>Cras vitae enim quis lectus luctus efficitur at eu purus. Proin tempus lacus viverra lectus auctor fringilla. Quisque facilisis molestie orci</p>
 					<div class="col-md-6">
@@ -219,7 +251,7 @@
 							<p>SQL/MySQL</p>
 							<p>VB/VB.net</p>
 						</div>
-						<div class = "col-md-10">
+						<div class = "col-md-8">
 							<div class="progress">
 								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:90%" width:"100">
 									<span class="sr-only">70% Complete</span>
@@ -258,7 +290,7 @@
 							<p>Lightroom</p>
 					
 						</div>
-						<div class = "col-md-10">
+						<div class = "col-md-8">
 							<div class="progress">
 								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%" width:"100">
 									<span class="sr-only">70% Complete</span>
@@ -283,7 +315,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="projectportfolio" class="contact-section">
+    <section id="projectportfolio" class="projectportfolio-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -321,22 +353,7 @@
 					</div>
                 </div>
             </div>
-			<div class="row">
-                <div class="col-lg-12">
-					<div class = "col-sm-6 well well-lg">
-						<h2>Project 5</h2>
-						<p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis,
-						orci at sagittis lobortis, lacus leo cursus massa, sit amet tristique enim lacus nec neque. 
-						Cras vitae enim quis lectus luctus efficitur at eu purus. Proin tempus lacus viverra lectus auctor fringilla. Quisque facilisis molestie orci convallis blandit. </p>
-					</div>
-					<div class = "col-sm-6 well well-lg">
-						<h2>Project 6</h2>
-						<p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis,
-						orci at sagittis lobortis, lacus leo cursus massa, sit amet tristique enim lacus nec neque. 
-						Cras vitae enim quis lectus luctus efficitur at eu purus. Proin tempus lacus viverra lectus auctor fringilla. Quisque facilisis molestie orci convallis blandit. </p>
-					</div>
-                </div>
-            </div>
+			
             </div>
         </div>
     </section>
@@ -360,9 +377,7 @@
         </div>
     </section>
 	
-	<script>
 	
-	</script>
 	<script src="js/pinlike.js"></script>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
